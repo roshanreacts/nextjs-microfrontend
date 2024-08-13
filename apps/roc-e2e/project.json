@@ -1,0 +1,9 @@
+{
+  "name": "roc-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/roc-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["roc"],
+  "// targets": "to see all targets run: nx show project roc-e2e --web",
+  "targets": {}
+}
