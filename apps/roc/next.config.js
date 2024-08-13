@@ -12,6 +12,18 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
+  async rewrites() {
+    return [
+      {
+        source: '/service',
+        destination: 'http://localhost:3001',
+      },
+      {
+        source: '/service/:path*',
+        destination: 'http://localhost:3001/:path*',
+      },
+    ];
+  },
 };
 
 const plugins = [
