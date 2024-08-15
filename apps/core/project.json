@@ -1,9 +1,9 @@
 {
-  "name": "roc",
+  "name": "core",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/roc",
+  "sourceRoot": "apps/core",
   "projectType": "application",
   "tags": [],
-  "// targets": "to see all targets run: nx show project roc --web",
+  "// targets": "to see all targets run: nx show project core --web",
   "targets": {}
 }
