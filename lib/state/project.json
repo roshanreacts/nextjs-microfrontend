@@ -1,7 +1,7 @@
 {
   "name": "state",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/state/src",
+  "sourceRoot": "lib/state/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -9,10 +9,10 @@
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/state",
-        "main": "apps/state/src/index.ts",
-        "tsConfig": "apps/state/tsconfig.lib.json",
-        "assets": ["apps/state/*.md"]
+        "outputPath": "dist/lib/state",
+        "main": "lib/state/src/index.ts",
+        "tsConfig": "lib/state/tsconfig.lib.json",
+        "assets": ["lib/state/*.md"]
       }
     }
   }

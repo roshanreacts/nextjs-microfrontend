@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@mercury-sf/state": ["apps/state/src/index.ts"]
+      "@lib/state": ["lib/state/src/index.ts"],
+      "@lib/ui": ["lib/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

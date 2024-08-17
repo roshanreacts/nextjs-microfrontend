@@ -1,11 +1,16 @@
 import styles from './page.module.css';
+import { store } from '@lib/state';
+import { Ui } from '@lib/ui';
 
-export default function Index() {
+export default async function Index() {
   /*
    * Replace the elements below with your own.
    *
    * Note: The corresponding styles are in the ./index.css file.
    */
+  const { name } = store;
+  store.setName('John Doe');
+  await store.getUser();
   return (
     <div className={styles.page}>
       <div className="wrapper">
@@ -13,8 +18,9 @@ export default function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome core 👋
+              Welcome {name} 👋
             </h1>
+            <Ui />
           </div>
 
           <div id="hero" className="rounded">

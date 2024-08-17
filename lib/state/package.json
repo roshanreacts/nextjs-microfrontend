@@ -1,5 +1,5 @@
 {
-  "name": "@mercury-sf/state",
+  "name": "@lib/state",
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0"
